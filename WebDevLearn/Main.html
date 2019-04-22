@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  height: 100%;
+}
+h1{
+  text-align: center;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: Gray;
+  background-color: rgba(255, 255, 255, .9);
+}
+
+.gen1 {
+  text-align: center;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: inherit;
+  background-color: LightGray;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  font-size: 45px;
+  color: white;
+  z-index: -1;
+}
+
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered3 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navbar {
+  overflow: hidden;
+  background-color: rgba(107, 195, 219, .5);
+ position: fixed;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  z-index:1;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgba(16, 87, 107, .5);
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  top: 15;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Software Projects
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#Group Synth">Group Synth</a>
+        <a href="#Live Subtitles">Live Subtitles</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Engineering Projects
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#Mission Possible">Mission Possible</a>
+        <a href="#Wright Stuff">Wright Stuff</a>
+        <a href="#Closed Loop">Closed Loop</a>
+      </div>
+    </div>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <div class="container">
+    <img src="./Images/Gradient.jpg.jpg" alt="Snow" style="width:100%;height:400px;">
+    <div class="centered">Hi, I'm Alex Sun,</div>
+    <div class="centered2">an Eccentric High School Student working to create cool products in CS and Engineering.</div>
+
+  </div>
+
+<h1><a id="home">hi</a></h1>
+<h1><a id="Group Synth"></a>Group Synth</h1>
+<h1><a id="Live Subtitles"></a>Live Subtitles</h1>
+<h1><a id="Mission Possible"></a>Mission Possible</h1>
+<h1><a id="Wright Stuff"></a>Wright Stuff</h1>
+<h1><a id="Closed Loop"></a>Closed Loop</h1>
+<h1><a id="contact"></a>Get In Touch</h1>
+
+
+
+<div class = "gen1">
+<p style = "font-size:100%;">Alex Sun</p>
+<p style = "font-size:75%;">Email: <a href="alexander.sun.business@gmail.com">Alexander.Sun.Business</a></p>
+<p style = "font-size:75%;">Github: <a href="https://github.com/technoAl">technoAl</a></p>
+<p style = "font-size:75%;">Discord: Alex_Sun#8022</p>
+<p style = "font-size:75%;">FB: <a href="https://www.facebook.com/alexander.sun.56884">Alexander Sun</a></p>
+
+</div>
+
+</body>
+</html>
